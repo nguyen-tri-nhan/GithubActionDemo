@@ -16,4 +16,6 @@ public class MathUtilTest {
     void test3(){
         assertEquals(util.sum(1,2),3);
     }
+    @Test
+    void test4() { assertTrue(false);}
 }
